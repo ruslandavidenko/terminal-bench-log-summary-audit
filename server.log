@@ -1,0 +1,10 @@
+2025-08-01 10:01:11 INFO 192.168.1.10 User login successful
+2025-08-01 10:02:15 ERROR 192.168.1.12 Database connection failed
+2025-08-01 10:03:44 WARNING 192.168.1.15 Disk usage high
+2025-08-01 10:04:18 INFO 192.168.1.10 Scheduled task completed
+2025-08-01 10:05:01 ERROR 192.168.1.12 API timeout occurred
+2025-08-01 10:06:09 INFO 192.168.1.20 Backup completed
+2025-08-01 10:07:31 WARNING 192.168.1.15 Memory usage warning
+2025-08-01 10:08:22 INFO 192.168.1.10 User logout successful
+2025-08-01 10:09:17 ERROR 192.168.1.25 Failed authentication attempt
+2025-08-01 10:10:40 INFO 192.168.1.20 Health check passed

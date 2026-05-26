@@ -1,0 +1,10 @@
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${T_BENCH_TASK_DOCKER_CLIENT_IMAGE_NAME:-log-summary-audit-client}
+    container_name: ${T_BENCH_TASK_DOCKER_CLIENT_CONTAINER_NAME:-log-summary-audit-client}
+    command: [ "sh", "-c", "sleep infinity" ]
+    environment:
+      - TEST_DIR=${T_BENCH_TEST_DIR}
